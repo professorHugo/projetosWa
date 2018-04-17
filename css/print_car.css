@@ -1,0 +1,25 @@
+@media print {
+  tr:first-child td, .modal-title, .no_print {
+    display: none !important;
+  }
+
+  table tr td, table tr, tr td {
+    border: 0 !important;
+    font-size: 1.5em !important;
+  }
+
+  td:first-child {
+    text-align: right !important;
+  }
+
+  td:last-child {
+    text-align: left !important;
+  }
+
+  h2 {
+    display: block !important;
+    font-size: 4em !important;
+    margin-bottom: 1em !important;
+    text-align: center !important;
+  }
+}

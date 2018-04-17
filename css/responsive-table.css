@@ -1,0 +1,60 @@
+@media (max-width: 992px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  table {
+    border: 0 !important;
+    max-width: 100% !important;
+  }
+
+  thead td:last-child {
+    display: none;
+  }
+
+  tbody {
+  }
+
+  tbody tr {
+    align-items: center;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 1rem;
+  }
+
+  tbody tr td {
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    /*display: block !important;*/
+    width: 100%;
+  }
+
+  tbody tr td:first-child {
+    /*align-self: flex-start;*/
+    border: 0 !important;
+    /*margin: 1rem;*/
+    width: 100%;
+  }
+
+  tbody tr td:nth-child(5), tbody tr td:nth-child(6), tbody tr td:nth-child(7) {
+    display: none;
+  }
+
+  thead {
+    border: 1px solid #ddd;
+  }
+
+  .thead_busca {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .thead_busca input, .thead_busca select, .thead_busca button {
+    margin: auto !important;
+    margin-top: .5rem !important;
+    width: 95% !important;
+  }
+}
